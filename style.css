@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.page1{
+    background: #fff; 
+    max-width: 1000px;
+    margin: auto;
+}
+.page1 .navbar{
+    background: #6b46f3;
+    padding: 1rem;
+    height: 100px;
+}
+.page1 .navbar .content ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 140px;
+}
+.page1 .navbar .content ul li{
+    padding-top: 2.5rem;
+    list-style: none;
+}
+.page1 .navbar .content ul li a{
+    text-decoration: none;
+}
+.page1 .navbar .content ul li a h1{
+    color: #fff;
+    text-decoration: none;
+}
+.page1 .navbar .content ul li a i{
+    color: #fff;
+}
+.search-container .search-bar {
+    padding: 1rem;
+}
+.search-container .search-bar input{
+    display: block;
+    height: 50px;
+    padding: 1rem;
+    width: 90%;
+    margin: auto;
+}
+.card-container .card{
+    display: flex;
+    padding-bottom: 1rem;
+}
+.card-container .card .card-text{
+    margin-left: 1rem;
+}
+.card-container .card .card-text .card-date{
+    display: flex;
+    width: 150px;
+    justify-content:space-between ;
+    padding: 0.6rem 0;
+}
+.card-container .card .card-text .card-date i{
+    color: #1754d6;
+}
+.card-container .card .card-text .card-date p{
+    color: rgb(126, 126, 126)
+}
+.card-container .card .card-text .card-footer{
+    display: flex;
+}
+.card-container .card .card-text .card-footer h3{
+    color:#1754d6;
+    padding-bottom:0.5rem ;
+}
+.card-container .card .card-text .card-footer img{
+    margin-left: 0.5rem;
+}
+.playbar-container {
+    width: 900px;
+    margin: auto;
+}
+.playbar-container .playbar{
+    display: flex;
+    margin: 1rem;
+}
+
+.playbar-container .playbar input{
+    width: 60%;
+    margin: auto;
+}
+.playbar-container .play-handler{
+    display: flex;
+    justify-content: center;
+}
+.playbar-container .play-handler i{
+    padding:1rem 5rem;
+    color: #6b46f3;
+}
+.navbar-menu{
+    margin-top: 4rem;
+    line-height: 2.5;
+    width: 100vw;
+    height: 100vh;
+}
+.navbar-menu .menu-choices ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.navbar-menu .menu-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.navbar-menu .menu-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.navbar-menu .menu-choices ul li .menu-text{
+    color: rgb(34, 34, 34);
+    padding: 1rem 2rem;
+}
+.navbar-menu .menu-choices ul li .menu-text:hover{
+    background: #6b46f3;
+    color: #fff;
+}
